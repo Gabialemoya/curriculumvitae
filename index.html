@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Mi CV</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="cabecera">
+            <img src="./sources/perfil.jpg" alt="Mi perfil">
+            <h1>Gabriela A. Moya</h1>
+            <p><i>Curriculum Vitae</i></p>
+            <ul>
+                <li>24 años</li>
+                <li>Moreno, Bs.As.</li>
+            </ul>
+        </div>
+        <h3 class="seccion">Enlaces:</h3>
+        <ul>
+            <li><a href="./paginasEnlazadas/estudios.html">Estudios</a></li>
+            <li><a href="./paginasEnlazadas/experiencia.html">Experiencia laboral</a></li>
+            <li><a href="./paginasEnlazadas/conocimientos.html">Conocimientos</a></li>
+        </ul>
+        <h3 class="seccion">Contactame</h3>
+        <div class="formulario">
+            <form method="GET" action="">
+                <label for="nombre">Nombre</label>
+                <input type="text" name="nombre" placeholder="Ingrese su nombre" required> <br>
+                <label for="fecha">Fecha de Nacimiento</label>
+                <input type="date" name="fecha" required> <br>
+                <label for="mail">Mail</label>
+                <input type="mail" name="mail" placeholder="Ingrese su mail"> <br>
+                <label for="comentario"></label>
+                <textarea name="comentario"></textarea> <br>
+                <input type="radio" name="tipo" value="Consulta">Consulta
+                <input type="radio" name="tipo" value="Consulta">Otro <br>
+                <br>
+                <label>Prioridad</label>
+                <select name="curso">
+                    <option value="normal">Normal</option>
+                    <option value="urgente">Urgente</option>
+                </select>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
+        
+    </body>
+</html>
