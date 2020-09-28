@@ -2,16 +2,22 @@ body{
     background: #d7c6f5 ;
 }
 
-
+h3{
+    text-align: center;
+}
 #cabecera{
     background-color: #26146b;
     color: white;
     text-align: center;
 }
 
-.seccion{
-    background-color: #43146b;
-    color: #efe6f7;
+.row{
+    margin-top: 5px;
+}
+
+.card{
+    padding: 25px;
+    width: 28rem;
 }
 
 
